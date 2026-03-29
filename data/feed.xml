@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+    <channel>
+        <title>Skin Context</title>
+        <link>https://skin-context.vercel.app</link>
+        <description>Update logs, nieuwe wapens en prijswijzigingen in de CS2 skin markt.</description>
+
+        <language>nl</language>
+        <copyright>Copyright 2026, Skin Context</copyright>
+        <lastBuildDate>Sun, 23 Mar 2026 12:00:00 +0000</lastBuildDate>
+        <generator>Skin Context — hand-crafted</generator>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <ttl>60</ttl>
+
+        <atom:link href="https://skin-context.vercel.app/data/feed.xml" rel="self" type="application/rss+xml"/>
+
+        <item>
+            <title>SkinContext is live</title>
+            <link>https://skin-context.vercel.app/index.html</link>
+            <description><![CDATA[
+                <p>SkinContext is officieel gelanceerd. Bekijk interactieve 3D-modellen van
+                CS2-wapens, ontdek de echte historiek via Wikidata en volg live prijzen.</p>
+            ]]></description>
+            <dc:creator>Skin Context</dc:creator>
+            <category>Update</category>
+            <pubDate>Sun, 23 Mar 2026 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://skin-context.vercel.app/index.html</guid>
+        </item>
+
+        <item>
+            <title>AK-47 — Wapen van de week</title>
+            <link>https://skin-context.vercel.app/detail.html#ak47</link>
+            <description><![CDATA[
+                <p>De AK-47 is ontworpen door Michail Kalasjnikov in 1947 en is sindsdien
+                het meest geproduceerde aanvalsgeweer ter woreld. In CS2 is het het
+                standaardgeweer van het terroristen-team.</p>
+                <p>Bekijk het 3D-model en de volledige historiek op de detailpagina.</p>
+            ]]></description>
+            <dc:creator>Skin Context</dc:creator>
+            <category>Wapen</category>
+            <category>CS2</category>
+            <pubDate>Mon, 17 Mar 2026 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://skin-context.vercel.app/detail.html#ak47</guid>
+        </item>
+
+        <item>
+            <title>AWP — Accuracy International Arctic Warfare</title>
+            <link>https://skin-context.vercel.app/detail.html#awp</link>
+            <description><![CDATA[
+                <p>De AWP is gebaseerd op de Accuracy International Arctic Warfare, een
+                Brits sluipschuttersgeweer uit de jaren 80. In CS2 is het het duurste wapen
+                en doodt het met één schot in het lichaam.</p>
+            ]]></description>
+            <dc:creator>Skin Context</dc:creator>
+            <category>Wapen</category>
+            <category>CS2</category>
+            <pubDate>Mon, 10 Mar 2026 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://skin-context.vercel.app/detail.html#awp</guid>
+        </item>
+
+    </channel>
+</rss>

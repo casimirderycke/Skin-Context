@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail - Skin Context</title>
+    <meta name="description" content="Detailpagina van Skin Context.">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="webmention" href="https://deno-webmention.casimirderycke.deno.net/">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script src="script/sw-register.js"></script>
+    <script type="module" src="script/ui.js"></script>
+    <script type="module" src="script/script.js"></script>
+    <script type="module" src="script/viewer.js"></script>
+    <script type="module" src="script/webmention.js"></script>
+    <script type="module" src="script/wapen-info.js"></script>
+    <script type="module" src="script/skins.js"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html#wapens-section" aria-label="Terug naar home"><action-knop variant="outline">←</action-knop></a>
+                <div class="nav-logo">
+                    <img src="img/logo.png" alt="Skin Context logo" class="logo-img" draggable="false">
+                </div>
+                <div class="nav-items">
+                    <a href="detail.html#viewer-3d"><action-knop variant="outline">Model</action-knop></a>
+                    <a href="detail.html#wapen-info"><action-knop variant="outline">Info</action-knop></a>
+                    <a href="detail.html#skins"><action-knop variant="outline">Skins</action-knop></a>
+                    <a href="detail.html#webmention"><action-knop variant="outline">WM</action-knop></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    </div>
+
+    <main id="main-content" class="main">
+        <h1 class="sr-only">Wapen detail</h1>
+        <div id="viewer-3d"></div>
+        <div class="viewer-controls">
+            <label for="bg-select" class="sr-only">Achtergrond kiezen</label>
+            <select id="bg-select">
+                <option value="">Geen achtergrond</option>
+                <option value="img/achtergronden/mirage.jpg">Mirage</option>
+                <option value="img/achtergronden/office.jpg">Office</option>
+                <option value="img/achtergronden/ancient.jpg">Ancient</option>
+            </select>
+            <div class="licentie">
+                <p>Licentie: <a href="https://sketchfab.com/3d-models/mp9-counter-strike-2-3dbcae165cb64385b83bf620b1803c80" target="_blank">source</a> <a href="https://sketchfab.com/blazitt" target="_blank">author</a></p>
+            </div>
+        </div>
+        <section class="wapen-info h-entry" id="wapen-info">
+            <link class="u-url" href="">
+            <div class="wapen-kaart">
+                <div class="wapen-foto"></div>
+                <div class="wapen-details">
+                    <h2 class="wapen-naam p-name">–</h2>
+                    <a class="wapen-wikidata" href="#" target="_blank" rel="noopener" hidden>Bekijk op Wikidata →</a>
+                    <div class="wapen-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skins" id="skins" aria-label="Skins">
+            <h3 class="skins-title">Skins</h3>
+            <div class="wapens-search">
+                <label for="zoek-skins" class="sr-only">Zoek skin</label>
+                <input type="search" id="zoek-skins" placeholder="Zoek een skin..." autocomplete="off">
+            </div>
+            <div class="skins-grid"></div>
+        </section>
+
+        <section class="webmention" id="webmention" aria-label="Webmentions">
+            <h3 class="wm-title">Webmentions</h3>
+            <p id="wm-teller" class="wm-teller">Mentions laden...</p>
+            <form class="wm-formulier" id="wm-formulier">
+                <label for="wm-url" class="cel-label">Heb je over dit wapen geschreven?</label>
+                <div class="wm-invoer">
+                    <input type="url" id="wm-url" required>
+                    <action-knop variant="outline" id="wm-verstuur">Verstuur</action-knop>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Skin Context. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

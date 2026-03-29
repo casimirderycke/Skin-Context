@@ -1,0 +1,33 @@
+{
+    "name": "Skin Context",
+    "short_name": "SC",
+    "description": "Ontdek de echte historiek van CS2-wapens via Wikidata, bekijk 3D-modellen en volg live prijzen.",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#0a0a0a",
+    "theme_color": "#0a0a0a",
+    "lang": "nl",
+    "icons": [
+        {
+            "src": "img/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Wapens bekijken",
+            "url": "/index.html#wapens-section",
+            "description": "Ga naar het wapenoverzicht"
+        }
+    ]
+}

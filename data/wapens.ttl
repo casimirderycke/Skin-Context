@@ -1,0 +1,126 @@
+
+@prefix sc:   <http://skincontext.local/> .
+
+sc:ak47_fire_serpent
+    sc:naam         "Fire Serpent" ;
+    sc:wapen        sc:ak47 ;
+    sc:beschrijving "Krachtig en betrouwbaar: de AK-47 is één van de meest betrouwbare aanvalsgeweren in de wereld. Het is het meest dodelijk in korte, gecontroleerde schoten. Dit aandenken van Ruins is geverfd met een vuurslangenmotief. Als je op straat wilt overleven moet je leren om vuur te spuwen." .
+
+sc:ak47_fuel_injector
+    sc:naam         "Fuel Injector" ;
+    sc:wapen        sc:ak47 ;
+    sc:beschrijving "Krachtig en betrouwbaar: de AK-47 is één van de meest betrouwbare aanvalsgeweren in de wereld. Het is het meest dodelijk in korte, gecontroleerde schoten. Het lichaam van het geweer is helder geel geschilderd en het magazijn is op maat geschilderd om er als machinerie uit te zien. Leef je leven per kwart magazijn." .
+
+sc:ak47_wild_lotus
+    sc:naam         "Wild Lotus" ;
+    sc:wapen        sc:ak47 ;
+    sc:beschrijving "Krachtig en betrouwbaar: de AK-47 is één van de meest betrouwbare aanvalsgeweren in de wereld. Het is het meest dodelijk in korte, gecontroleerde schoten. A custom paint job of an orange lotus has been hand painted over a green base. Muck or nettles." .
+
+sc:ak47_x_ray
+    sc:naam         "X-Ray" ;
+    sc:wapen        sc:ak47 ;
+    sc:beschrijving "Krachtig en betrouwbaar: de AK-47 is één van de meest betrouwbare aanvalsgeweren in de wereld. Het is het meest dodelijk in korte, gecontroleerde schoten. A custom painted AK-47 showing its internals with an X-Ray. When all is revealed you may not like what you see..." .
+
+sc:awp_boom
+    sc:naam         "BOOM" ;
+    sc:wapen        sc:awp ;
+    sc:beschrijving "Hoog risico met hoge beloningen: de beruchte AWP is te herkennen aan zijn kenmerkend één-schot-één-dode-beleid. Het is gespoten door over een oranje lakbasis een stripboekklanken-hydrografie te gebruiken." .
+
+sc:awp_dragon_lore
+    sc:naam         "Dragon Lore" ;
+    sc:wapen        sc:awp ;
+    sc:beschrijving "Hoog risico met hoge beloningen: de beruchte AWP is te herkennen aan zijn kenmerkend één-schot-één-dode-beleid. Het is speciaal beschilderd met een knoopwerkdraak. Zelfs 200 sleutels kunnen de geheimen nooit blootleggen." .
+
+sc:awp_gungnir
+    sc:naam         "Gungnir" ;
+    sc:wapen        sc:awp ;
+    sc:beschrijving "Hoog risico met hoge beloningen: de beruchte AWP is te herkennen aan zijn kenmerkend één-schot-één-dode-beleid. Odin's spear travels down this custom painted pearlescent blue and ivory AWP. A weapon for the Allfather." .
+
+sc:awp_medusa
+    sc:naam         "Medusa";
+    sc:wapen        sc:awp ;
+    sc:beschrijving "Hoog risico met hoge beloningen: de beruchte AWP is te herkennen aan zijn kenmerkend één-schot-één-dode-beleid. Het is speciaal beschilderd met de afbeelding van een Gorgo. Als je me kunt zien, ben je al dood." .
+
+
+sc:deagle_blaze
+    sc:naam         "Blaze" ;
+    sc:wapen        sc:deagle ;
+    sc:beschrijving "Zo duur als dat het sterk is: de Desert Eagle is een iconisch pistool dat moeilijk te meesteren is, maar verrassend scherp schiet op lange afstanden. Het is gespoten door over een chromen lakbasis transparante verf te airbrushen." .
+
+sc:deagle_emerald_jormungandr
+    sc:naam         "Emerald Jörmungandr" ;
+    sc:wapen        sc:deagle ;
+    sc:beschrijving "Zo duur als dat het sterk is: de Desert Eagle is een iconisch pistool dat moeilijk te meesteren is, maar verrassend scherp schiet op lange afstanden. A green pattern depicting Jörmungandr, the World Serpent, has been applied. Wake the gods." .
+
+sc:deagle_fennec_fox
+    sc:naam         "Fennec Fox" ;
+    sc:wapen        sc:deagle ;
+    sc:beschrijving "Zo duur als dat het sterk is: de Desert Eagle is een iconisch pistool dat moeilijk te meesteren is, maar verrassend scherp schiet op lange afstanden. Op maat beschilderd met een woestijnvos op de loop. Op de handgreep staan appelblauwzeegroene en oranje ontwerpen. Om je beter te kunnen horen." .
+
+sc:deagle_sunset_storm
+    sc:naam         "Sunset Storm 壱" ;
+    sc:wapen        sc:deagle ;
+    sc:beschrijving "Zo duur als dat het sterk is: de Desert Eagle is een iconisch pistool dat moeilijk te meesteren is, maar verrassend scherp schiet op lange afstanden. Het is beschilderd met een hydroprint van een stormende zee over een metallic-rode grondlaag. Je denkt dat het hetzelfde is, maar kijk nog eens... subtiliteit maat alle verschil." .
+
+
+sc:m4a1s_hot_rod
+    sc:naam         "Hot Rod" ;
+    sc:wapen        sc:m4a1s ;
+    sc:beschrijving "Met een kleiner magazijn dan zijn luidere tegenhanger biedt de M4A1 met zijn demper stillere schoten met minder terugslag en hogere precisie. Het is geverfd een chromen basislak en geglaceerd in transparant rode geanodiseerde effectverf. Automatisch. Systematisch. Hydromatisch." .
+
+sc:m4a1s_hyper_beast
+    sc:naam         "Hyper Beast" ;
+    sc:wapen        sc:m4a1s ;
+    sc:beschrijving "Met een kleiner magazijn dan zijn luidere tegenhanger biedt de M4A1 met zijn demper stillere schoten met minder terugslag en hogere precisie. Het is speciaal beschilderd met een beestachtig schepsel in psychedelische kleuren. Wil je echt indruk op me maken, Booth? Maak dit hier gevoelig voor zwart licht - Rona Sabri, aankomende ster." .
+
+sc:m4a1s_icarus_fell
+    sc:naam         "Icarus Fell" ;
+    sc:wapen        sc:m4a1s ;
+    sc:beschrijving "Met een kleiner magazijn dan zijn luidere tegenhanger biedt de M4A1 met zijn demper stillere schoten met minder terugslag en hogere precisie. Het is beschilderd met een hydroprint van veren en gesmolten was rondom een zonnenmotief. Het verraad van Turner is mijn fout... ik moet dit goedmaken - Sebastien Hennequet, sluipschutter." .
+
+sc:m4a1s_imminent_danger
+    sc:naam         "Imminent Danger" ;
+    sc:wapen        sc:m4a1s ;
+    sc:beschrijving "Met een kleiner magazijn dan zijn luidere tegenhanger biedt de M4A1 met zijn demper stillere schoten met minder terugslag en hogere precisie. Op maat beschilderd met veiligheidsborden in verschillende kleuren. Zeg niet dat ik je niet gewaarschuwd heb… - Booth, wapenhandelaar." .
+
+
+sc:m4a4_daybreak
+    sc:naam         "Daybreak" ;
+    sc:wapen        sc:m4a4 ;
+    sc:beschrijving "Meer precies maar die minder schade doet dan de AK-47: de M4A4 is een volautomatisch geweer dat door vele CT's gekozen wordt. Het is beschilderd met een zonsopgang in metallic verf. De zon komt op voor zowel de rechtvaardigen als de goddelozen." .
+
+sc:m4a4_eye_of_horus
+    sc:naam         "Eye of Horus" ;
+    sc:wapen        sc:m4a4 ;
+    sc:beschrijving "Meer precies maar die minder schade doet dan de AK-47: de M4A4 is een volautomatisch geweer dat door vele CT's gekozen wordt. It has been custom painted with a white base, gold accents, and the Egyptian falcon god Horus. Rise above the rest." .
+
+sc:m4a4_howl
+    sc:naam         "Howl" ;
+    sc:wapen        sc:m4a4 ;
+    sc:beschrijving "Meer precies maar die minder schade doet dan de AK-47: de M4A4 is een volautomatisch geweer dat door vele CT's gekozen wordt. Het is speciaal beschilderd met de afbeelding van een grommende wolf." .
+
+sc:m4a4_poseidon
+    sc:naam         "Poseidon" ;
+    sc:wapen        sc:m4a4 ;
+    sc:beschrijving "Meer precies maar die minder schade doet dan de AK-47: de M4A4 is een volautomatisch geweer dat door vele CT's gekozen wordt. Het is speciaal beschilderd met een weergave van een gevecht tussen Vissen en Poseidon. Drie kunnen een geheim bewaren, als twee van hen dood zijn" .
+
+
+sc:mp9_pandoras_box
+    sc:naam         "Pandora's Box" ;
+    sc:wapen        sc:mp9 ;
+    sc:beschrijving "Gemaakt in Zwitserland: de revolutionaire MP9 is een ergonomisch polymeren wapen veel gekozen door privé beveiligingsfirma's. Het is geairbrusht met cartoongeesten. De wereld staat in vlammen, maar we hebben in ieder geval hoop." .
+
+sc:mp9_setting_sun
+    sc:naam         "Setting Sun" ;
+    sc:wapen        sc:mp9 ;
+    sc:beschrijving "Gemaakt in Zwitserland: de revolutionaire MP9 is een ergonomisch polymeren wapen veel gekozen door privé beveiligingsfirma's. Het is beschilderd met een hydroprint van symbolen voor nucleair gevaar." .
+
+sc:mp9_stained_glass
+    sc:naam         "Stained Glass" ;
+    sc:wapen        sc:mp9 ;
+    sc:beschrijving "Gemaakt in Zwitserland: de revolutionaire MP9 is een ergonomisch polymeren wapen veel gekozen door privé beveiligingsfirma's. It has been painted to resemble blue and red stained glass. You break it, you buy it." .
+
+sc:mp9_wild_lily
+    sc:naam         "Wild Lily" ;
+    sc:wapen        sc:mp9 ;
+    sc:beschrijving "Gemaakt in Zwitserland: de revolutionaire MP9 is een ergonomisch polymeren wapen veel gekozen door privé beveiligingsfirma's. A custom paint job of a blue lily has been hand painted over a purple base. Stop and smell the cordite." .

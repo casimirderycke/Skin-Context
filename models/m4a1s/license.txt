@@ -1,0 +1,11 @@
+Model Information:
+* title:	M4A1S Counter Strike 2
+* source:	https://sketchfab.com/3d-models/m4a1s-counter-strike-2-c2649f07783b4f979cda0e7773263380
+* author:	blazitt (https://sketchfab.com/blazitt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "M4A1S Counter Strike 2" (https://sketchfab.com/3d-models/m4a1s-counter-strike-2-c2649f07783b4f979cda0e7773263380) by blazitt (https://sketchfab.com/blazitt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
