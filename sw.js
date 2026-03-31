@@ -1,4 +1,4 @@
-const CACHE_NAAM = 'skincontext-v20';
+const CACHE_NAAM = 'skincontext-v21';
 
 const PRECACHE_URLS = [
     '/',
