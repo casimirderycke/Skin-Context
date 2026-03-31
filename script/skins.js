@@ -65,7 +65,7 @@ async function laadBeschrijvingen() {
             huidigNaam = regel.split('"')[1];
         }
         if (regel.includes('sc:wapen')) {
-            huidigWapen = regel.split('sc:')[2].trim();
+            huidigWapen = regel.split('sc:')[2].split(/[\s;]/)[0];
         }
         if (regel.includes('sc:beschrijving') && huidigNaam && huidigWapen) {
             const beschrijving = regel.split('"')[1];
